@@ -54,3 +54,8 @@ sudo apt install default-jre
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -port 7000
 
 Extract
+
+
+cmd+shift+p python select interpreter, choose one in local venv
+
+pip install boto3
