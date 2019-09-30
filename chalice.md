@@ -19,6 +19,21 @@ Python 3.5 or higher needs to specify `pip3`
 
 ### Installation
 
+Make sure you have Python 3.6 installed. You can check this by running `python3 -v`.
+
+### Creating a Python virtual environment
+
+Every Python project needs its own virtual environment. Each virtual environment might use different versions of Python and different package so it's important to keep them separate. Instead of a `node_modules` folder, we will have a `venv` folder in the project (added to .gitignore). The `requirements.txt` file is similar to a `package.json`. When you clone a repo, you can run `pip3 install -r requirements.txt` instead of `npm install`.
+
+`git clone`
+`cd`
+`python3 -m venv venv`
+`pip install -r requirements.txt`
+`source venv/bin/activate`
+
+### Setting up AWS credentials
+
+
 Install AWS Chalice as a dependency of our python project
 
 `pip install chalice`
