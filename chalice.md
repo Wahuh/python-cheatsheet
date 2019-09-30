@@ -34,9 +34,23 @@ Every Python project needs its own virtual environment. Each virtual environment
 
 ### Setting up AWS credentials
 
+`pip install awscli`
+`aws configure`
+`eu-west-1`
+`json`
 
 Install AWS Chalice as a dependency of our python project
 
 `pip install chalice`
 
 `chalice new-project our_app_name`
+
+### Install DynamoDB
+
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html
+Install Java
+java -version
+sudo apt install default-jre
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb -port 7000
+
+Extract
