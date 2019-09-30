@@ -27,6 +27,7 @@ Every Python project needs its own virtual environment. Each virtual environment
 
 `git clone`
 `cd`
+`apt-get install python3-venv`
 `python3 -m venv venv`
 `pip install -r requirements.txt`
 `source venv/bin/activate`
