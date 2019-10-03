@@ -8,6 +8,8 @@ lambda receives dynamoDB stream event
 lambda queries dynamoDB followers table using the username from the run item obtained from stream event
 lambda pushes using connectionids
 
+need to get past 10 events for feed, sorted by latest
+
 dynamodb stream new images
 
 #generate UUID for each run item
