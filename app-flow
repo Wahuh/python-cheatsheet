@@ -20,4 +20,5 @@ locations
 locations are not stored in db
 someone starts a run, starts a run topic
 someone clicks on map link, connects to a run topic and subscribes
+use websockets oh client to connect to a run id topic and get events back
 locations are pushed
