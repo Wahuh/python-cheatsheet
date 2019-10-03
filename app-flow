@@ -31,3 +31,6 @@ if run has ended... update on frontend
 websockets on frontend
 
 make pure lambda functions in chalice for dynamoDB streams and hook them up
+
+ask about dependencies
+does this work? send a message in a websocket chalice lambda without decorator?
