@@ -21,6 +21,6 @@ front end needs to send the correct run item and location item.
 locations
 locations are not stored in db
 someone starts a run, starts a run topic
-someone clicks on map link, connects to a run topic and subscribes
-use websockets oh client to connect to a run id topic and get events back
-locations are pushed
+someone clicks on map link, connects to run via websocket
+use websockets on client to connect to a run id topic, save connection id and get events back
+locations are pushed to client
