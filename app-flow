@@ -29,3 +29,5 @@ if run has ended... update on frontend
 
 #https://facebook.github.io/react-native/docs/network
 websockets on frontend
+
+make pure lambda functions in chalice for dynamoDB streams and hook them up
