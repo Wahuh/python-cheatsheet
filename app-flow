@@ -1,0 +1,9 @@
+User clicks on start run
+send username and start time to server
+creates a run item in db
+primary key user_id
+secondary key run_id
+dynamoDB stream picks this up
+lambda receives dynamoDB stream event
+
+lambda needs connectionids to push???
