@@ -14,3 +14,4 @@ dynamodb stream new images
 #convert using typedeserializer
 #https://stackoverflow.com/questions/52157487/dynamodb-boto3-dynamodbstreams-get-records
 https://stackoverflow.com/questions/41746735/aws-dynamodb-stream-python-convert-native-format
+front end needs to send the correct run item and location item.
