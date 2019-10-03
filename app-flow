@@ -34,3 +34,7 @@ make pure lambda functions in chalice for dynamoDB streams and hook them up
 
 ask about dependencies
 does this work? send a message in a websocket chalice lambda without decorator?
+https://serverless.com/blog/api-gateway-websockets-support/
+send to multiple connectionids
+https://medium.com/dazn-tech/aws-serverless-websockets-at-scale-8a79cd5a9f3b
+https://serverless.com/framework/docs/providers/aws/events/websocket/
