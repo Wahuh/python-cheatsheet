@@ -38,3 +38,6 @@ https://serverless.com/blog/api-gateway-websockets-support/
 send to multiple connectionids
 https://medium.com/dazn-tech/aws-serverless-websockets-at-scale-8a79cd5a9f3b
 https://serverless.com/framework/docs/providers/aws/events/websocket/
+use SQS queue to store location objects so you dont have to store it in DB
+lambda reads off SQS queue and pushes to connected ids
+need to get ids of all people subscribed to this queue
