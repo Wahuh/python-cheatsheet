@@ -42,3 +42,4 @@ use SQS queue to store location objects so you dont have to store it in DB
 lambda reads off SQS queue and pushes to connected ids
 need to get ids of all people subscribed to this queue
 run creates an SNS topic?
+handle disconnected clients when sending
