@@ -43,3 +43,6 @@ lambda reads off SQS queue and pushes to connected ids
 need to get ids of all people subscribed to this queue
 run creates an SNS topic?
 handle disconnected clients when sending
+https://dev.to/exampro/sns-vs-sqs-aws-messaging-services-know-the-difference-49p
+create topic with sns when someone creates run
+and publish to lambda
