@@ -15,3 +15,9 @@ dynamodb stream new images
 #https://stackoverflow.com/questions/52157487/dynamodb-boto3-dynamodbstreams-get-records
 https://stackoverflow.com/questions/41746735/aws-dynamodb-stream-python-convert-native-format
 front end needs to send the correct run item and location item.
+
+locations
+locations are not stored in db
+someone starts a run, starts a run topic
+someone clicks on map link, connects to a run topic and subscribes
+locations are pushed
