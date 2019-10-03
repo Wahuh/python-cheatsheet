@@ -5,5 +5,12 @@ primary key user_id
 secondary key run_id
 dynamoDB stream picks this up
 lambda receives dynamoDB stream event
+lambda queries dynamoDB followers table using the username from the run item obtained from stream event
+lambda pushes using connectionids
 
-lambda needs connectionids to push???
+dynamodb stream new images
+
+#generate UUID for each run item
+#convert using typedeserializer
+#https://stackoverflow.com/questions/52157487/dynamodb-boto3-dynamodbstreams-get-records
+https://stackoverflow.com/questions/41746735/aws-dynamodb-stream-python-convert-native-format
