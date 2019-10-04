@@ -47,3 +47,5 @@ https://dev.to/exampro/sns-vs-sqs-aws-messaging-services-know-the-difference-49p
 create topic with sns when someone creates run
 and publish to lambda
 https://aws.amazon.com/getting-started/tutorials/send-fanout-event-notifications/
+create a table for followers and following. user_id
+get last 10 users
